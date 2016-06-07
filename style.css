@@ -1,0 +1,138 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.checkbox {
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  border-style:solid;
+}
+
+.delete {
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  float:right;
+  border-style:solid;
+  background-image:url("tranquil.jpg");
+  background-size:contain;
+  background-repeat: no-repeat;
+}
+
+
+.task {
+  margin-left:30px;
+  height: 50px;
+  width: 600px;
+  margin-top:15px;
+
+}
+
+.content {
+  font-weight:bold;
+  position:relative;
+  margin-left:10px;
+  position:relative;
+  bottom:10px;
+  font-style:italic;
+}
+
+.checkmark {
+  background-image:url("checkmark.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+}
+
+.completedTask {
+  text-decoration:line-through;
+}
+
+#innercontainer {
+  font-family:helvetica;
+  width:600px;
+  margin:0 auto;
+  padding-top:20px;
+}
+
+
+#new {
+  border-style:groove;
+  width:150px;
+  background-color:orange;
+  text-align:center;
+  display:inline-block;
+  padding:5px;
+}
+
+#tasklist {
+  padding-top:50px;
+}
+
+#vun {
+  background-color:orange;
+  border-style:groove;
+  margin:5px;
+  display:inline-block;
+  padding:5px;
+}
+
+#vcom {
+  background-color:orange;
+  border-style:groove;
+  margin:5px;
+  display:inline-block;
+  padding:5px;
+}
+
+#vall {
+  background-color:orange;
+  border-style:groove;
+  margin:5px;
+  display:inline-block;
+  padding: 5px;
+}
+
+#amazing {
+  width:700px;
+  margin-top:10px;
+  text-align:center;
+}
+
+#buttons {
+  width:700px;
+  text-align:center;
+}
+
+#tranq {
+  border-style:double;
+  padding:5px;
+  color:purple;
+  font-weight:bold;
+}
+
+#container {
+  height:100%;
+  width:100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.normal {
+  background-image:url("background1.jpg")
+}
+
+.yo {
+  background-image:url("background.jpg")
+}
+
+.really {
+  background-image:url("corgi.jpg");
+  background-size:contain;
+}
+
+.yup {
+  background-image:url("cat.jpg");
+  background-size:contain;
+}
